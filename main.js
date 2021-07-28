@@ -222,8 +222,8 @@ async function getMoreInfo(btn) {
 function collapseMoreInfo(coin) {
 	$(`#coll${coin.symbol}`).html(`
   USD: ${coin.market_data.current_price.usd}$ <br>
-  EUR: ${coin.market_data.current_price.usd}€ <br>
-  ILS: ${coin.market_data.current_price.usd}₪ <br>
+  EUR: ${coin.market_data.current_price.eur}€ <br>
+  ILS: ${coin.market_data.current_price.ils}₪ <br>
   <div class="coinImg">
   <img src="${coin.image.small}">
   </div>
