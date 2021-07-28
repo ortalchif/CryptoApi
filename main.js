@@ -245,7 +245,7 @@ function changeBtnText(btn) {
 function about() {
 	$(".coins-container").html("");
 	$(".coins-container").append(
-		`<div class="infoAboutMe"> <img class="picOfMe" src="img/PicOfMe.jpeg" style="width:200px"/> 
+		`<div class="infoAboutMe"> <img class="picOfMe" src="PicOfMe.jpeg" style="width:200px"/> 
 		<p class="infoText">My name is Ortal Chifrut, I'm 32 years old. 
 		<br>I have a bachelor's degree and a teaching certificate in history from Ben-Gurion University.
 		<br>Also have a B.Sc. in computer science from HIT.
