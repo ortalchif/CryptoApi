@@ -1,0 +1,79 @@
+html,
+body,
+nav {
+	background-image: url(img/mtb-vt-qryptvqvyn-mdyttsyh---2560x1080_14.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main-header {
+	height: 100px;
+	border-bottom: 1px solid black;
+	align-items: center;
+	background-color: rgba(211, 211, 211, 0.26);
+	color: white;
+	display: flex;
+}
+
+.coins-container {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100%;
+}
+
+.card {
+	border-radius: 25px;
+	background-color: rgba(10, 78, 21, 0.726);
+	color: white;
+	border: 1px solid white;
+	margin-left: 5px;
+}
+
+button {
+	margin: 7px;
+}
+
+.loader {
+	margin: 100px auto;
+}
+
+.infoAboutMe {
+	display: flex;
+	color: white;
+}
+
+.picOfMe {
+	height: 335px;
+	border-radius: 255px;
+}
+
+.infoText {
+	background-color: rgba(7, 7, 7, 0.315);
+
+	font-size: 25px;
+	font-style: oblique;
+	padding-left: 20px;
+}
+
+.emptySearch,
+.numericSearch,
+.nocard {
+	font-size: 40px;
+	color: white;
+	background-color: rgba(15, 6, 6, 0.418);
+	margin: auto;
+}
+
+.modalShow {
+	display: flex;
+}
+
+.toggler-input {
+	z-index: 9999;
+}
+
+.modal-header {
+	background-color: rgba(183, 243, 183, 0.63);
+}
